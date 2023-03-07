@@ -6,7 +6,9 @@ import fetchProductsThunk from "../features/products/thunk/fetchProductsThunk";
 const PRODUCTS_CATEGORY = ["Laptop", "Smartphone", "Tablet"];
 const Home = () => {
   const dispatch = useDispatch();
-
+  useEffect(() => {
+    document.title = "Home";
+  }, []);
   useEffect(() => {
     dispatch(fetchProductsThunk);
   }, [dispatch]);

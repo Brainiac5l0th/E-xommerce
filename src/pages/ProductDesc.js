@@ -13,10 +13,6 @@ const ProductDesc = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { productId } = useParams();
-  useEffect(() => {
-    dispatch(fetchAProductThunk(productId));
-  }, [dispatch, productId]);
-
   const productDetails = useSelector((state) => state.product);
   const {
     id,
@@ -27,6 +23,15 @@ const ProductDesc = () => {
     price,
     in_stock: inStock,
   } = productDetails;
+
+  //side effects
+  useEffect(() => {
+    document.title = `${name ? name : "Product Description"}`;
+  }, [name]);
+
+  useEffect(() => {
+    dispatch(fetchAProductThunk(productId));
+  }, [dispatch, productId]);
 
   //handlers
   const handleAddCart = () => {

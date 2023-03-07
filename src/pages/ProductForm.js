@@ -12,6 +12,10 @@ const ProductForm = () => {
     (singleProduct) => singleProduct.id === toUpdate
   )[0];
   useEffect(() => {
+    document.title = toUpdate ? "Update Product" : "Add Product";
+  }, [toUpdate]);
+  
+  useEffect(() => {
     if (toUpdate) {
       setProductData({
         name: updateData.name,

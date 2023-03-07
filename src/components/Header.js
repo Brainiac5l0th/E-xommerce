@@ -1,10 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 import cartImg from "../assets/images/shopping-cart.png";
 const Header = () => {
-  const navigate = useNavigate();
   const cartQuant = useSelector((state) => state.carts);
   const userInfo = useSelector((state) => state.user);
   const total = cartQuant.reduce((total, card) => total + card?.amount, 0);
@@ -50,15 +49,12 @@ const Header = () => {
             </li>
           </ul>
           {userInfo?.username ? (
-            <Link className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 ">
+            <button className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 ">
               Logout
-            </Link>
+            </button>
           ) : (
-            <button
-              onClick={navigate("/login")}
-              className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 "
-            >
-              Login
+            <button className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 ">
+              <Link to={"/login"}>Login</Link>
             </button>
           )}
           {/* <img className="md:hidden" src="" alt="" /> */}
