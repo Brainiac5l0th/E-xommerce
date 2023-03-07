@@ -1,0 +1,168 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPad Pro",
+      "category": "Tablet",
+      "description": "The iPad Pro is a powerful tablet designed for professionals. It features a stunning 11-inch or 12.9-inch Liquid Retina XDR display, an M1 chip with up to 16-core Neural Engine, and up to 16GB of RAM. The tablet also has a long battery life of up to 10 hours and supports 5G connectivity. The iPad Pro is great for creative professionals, with its ProMotion technology and support for the Apple Pencil. It also has a USB-C port for easy connectivity to other devices.",
+      "price": 799,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=iPad+Pro"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S21",
+      "category": "Smartphone",
+      "description": "The Samsung Galaxy S21 is a powerful Android smartphone with a stunning 6.2-inch Dynamic AMOLED display, a Snapdragon 888 processor, and up to 8GB of RAM. The smartphone also has a long battery life and supports 5G connectivity. The Galaxy S21's camera system is also top-notch, featuring a 12MP wide sensor, a 12MP ultra-wide sensor, and a 64MP telephoto sensor. With its sleek design and powerful features, the Samsung Galaxy S21 is a great choice for anyone looking for a premium Android smartphone.",
+      "price": 699.99,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Galaxy+S21"
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro",
+      "category": "Laptop",
+      "description": "The MacBook Pro is a powerful laptop designed for professionals. It features a stunning 13.3-inch or 16-inch Retina display, an M1 chip with up to 16-core Neural Engine, and up to 32GB of RAM. The laptop also has a long battery life of up to 17 hours and a comfortable keyboard that's great for typing. The MacBook Pro is great for creative professionals, with its support for the Apple Pencil and ProMotion technology. It also has a Touch Bar that provides quick access to tools and shortcuts.",
+      "price": 1299,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=MacBook+Pro"
+    },
+    {
+      "id": 4,
+      "name": "Microsoft Surface Pro 7",
+      "category": "Tablet",
+      "description": "The Microsoft Surface Pro 7 is a versatile tablet that can be used as a laptop. It features a 12.3-inch PixelSense display, an Intel Core i5 processor, and up to 16GB of RAM. The tablet also has a long battery life of up to 10.5 hours and supports fast charging. The Surface Pro 7 is great for productivity, with its detachable keyboard and support for the Surface Pen. It also has a USB-C port for easy connectivity to other devices.",
+      "price": 799,
+      "in_stock": false,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Surface+Pro+7"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 13",
+      "category": "Smartphone",
+      "description": "The iPhone 13 is the latest flagship smartphone from Apple. It features a 6.1-inch Super Retina XDR display, an A15 Bionic chip, and up to 6GB of RAM. The smartphone also has a long battery life and supports 5G connectivity. The iPhone 13's camera system is also impressive, featuring a 12MP wide sensor, a 12MP ultra-wide sensor, and a 12MP telephoto sensor. With its sleek design and powerful features, the iPhone 13 is a great choice for anyone looking for a premium smartphone.",
+      "price": 799,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=iPhone+13"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy Tab S7+",
+      "category": "Tablet",
+      "description": "The Samsung Galaxy Tab S7+ is a high-end tablet that's perfect for both work and entertainment. It features a large 12.4-inch Super AMOLED display with a resolution of 2800 x 1752 pixels. Under the hood, it's powered by a Qualcomm Snapdragon 865+ processor, 6GB of RAM, and 128GB of internal storage. The tablet also supports 5G connectivity and has a long battery life of up to 14 hours. With its quad speakers, the Galaxy Tab S7+ delivers stunning sound quality, making it perfect for watching movies or playing games. Additionally, the tablet comes with the S Pen, allowing you to take notes or draw with ease.",
+      "price": 849.99,
+      "in_stock": false,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Galaxy+Tab+S7%2B"
+    },
+    {
+      "id": 8,
+      "name": "Google Pixel 6",
+      "category": "Smartphone",
+      "description": "The Google Pixel 6 is the latest smartphone from Google that's designed to deliver a seamless experience. It features a 6.4-inch AMOLED display with a resolution of 2400 x 1080 pixels. Under the hood, it's powered by a Google Tensor chip, 8GB of RAM, and up to 256GB of internal storage. The smartphone also supports 5G connectivity and has a long battery life of up to 24 hours. The Pixel 6's camera system is also impressive, featuring a 50MP primary camera and a 12MP ultra-wide camera. With its clean and simple design, the Pixel 6 is perfect for anyone who wants a smartphone that's easy to use and delivers great performance.",
+      "price": 699,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Pixel+6"
+    },
+    {
+      "id": 10,
+      "name": "Microsoft Surface Duo 2",
+      "category": "Smartphone",
+      "description": "The Microsoft Surface Duo 2 is a unique smartphone that's designed for productivity. It features two 5.8-inch AMOLED displays with a resolution of 2700 x 1800 pixels. Under the hood, it's powered by a Qualcomm Snapdragon 888 processor, 8GB of RAM, and up to 256GB of internal storage. The smartphone also has a long battery life of up to 15.5 hours and supports fast charging. With its 360-degree hinge, the Surface Duo 2 can be used as a tablet or a laptop, making it perfect for anyone who needs a versatile device. Additionally, the smartphone comes with a stylus, allowing you to take notes or draw with ease.",
+      "price": 1499,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Surface+Duo+2"
+    },
+    {
+      "id": 11,
+      "name": "Dell XPS 13",
+      "category": "Laptop",
+      "description": "The Dell XPS 13 is a premium laptop that's perfect for both work and entertainment. It features a 13.3-inch InfinityEdge display with a resolution of 1920 x 1080 pixels. Under the hood, it's powered by an 11th Gen Intel Core processor, up to 16GB of RAM, and up to 1TB of internal storage. The laptop also has a long battery life of up to 14 hours and supports fast charging. With its slim and lightweight design, the XPS 13 is easy to carry around, making it perfect for anyone who's always on the go. Additionally, the laptop features a backlit keyboard, making it easy to work in low-light environments.",
+      "price": 1199,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Dell+XPS+13"
+    },
+    {
+      "id": 13,
+      "name": "Samsung Galaxy Book Pro",
+      "category": "Laptop",
+      "description": "The Samsung Galaxy Book Pro is a premium laptop that's perfect for both work and entertainment. It features a 15.6-inch AMOLED display with a resolution of 1920 x 1080 pixels. Under the hood, it's powered by an 11th Gen Intel Core processor, up to 16GB of RAM, and up to 512GB of internal storage. The laptop also has a long battery life of up to 20 hours and supports fast charging. With its slim and lightweight design, the Galaxy Book Pro is easy to carry around, making it perfect for anyone who's always on the go. Additionally, the laptop features a backlit keyboard and a fingerprint sensor, making it easy to work and secure your device.",
+      "price": 1099,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Galaxy+Book+Pro"
+    },
+    {
+      "id": 14,
+      "name": "Google Pixel 6",
+      "category": "Smartphone",
+      "description": "The Google Pixel 6 is a powerful smartphone that's designed for photography enthusiasts. It features a 6.4-inch AMOLED display with a resolution of 2400 x 1080 pixels. Under the hood, it's powered by a Google Tensor processor, 8GB of RAM, and up to 256GB of internal storage. The smartphone also has a long battery life of up to 24 hours and supports fast charging. With its powerful camera system, the Pixel 6 can capture stunning photos and videos in any lighting condition. Additionally, the smartphone comes with Google Assistant built-in, allowing you to get things done with just your voice.",
+      "price": 799,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Pixel+6"
+    },
+    {
+      "id": 15,
+      "name": "Microsoft Surface Go 3",
+      "category": "Tablet",
+      "description": "The Microsoft Surface Go 3 is a compact and versatile tablet that's perfect for both work and play. It features a 10.5-inch PixelSense display with a resolution of 1920 x 1280 pixels. Under the hood, it's powered by an Intel Pentium Gold processor, up to 8GB of RAM, and up to 128GB of internal storage. The tablet also has a long battery life of up to 10 hours and supports fast charging. With its lightweight design and kickstand, the Surface Go 3 is easy to carry around and use in any position. Additionally, the tablet comes with a Surface Pen, allowing you to take notes or draw with ease.",
+      "price": 399,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Surface+Go+3"
+    },
+    {
+      "id": 16,
+      "name": "Apple iPhone 13",
+      "category": "Smartphone",
+      "description": "The Apple iPhone 13 is the latest and greatest iPhone from Apple. It features a 6.1-inch Super Retina XDR display with a resolution of 2532 x 1170 pixels. Under the hood, it's powered by the A15 Bionic chip, which is incredibly powerful and efficient. It has up to 5-core GPU for incredible gaming and photography experiences, and up to 6GB of RAM, depending on the model. The iPhone 13 also has an improved camera system, including a 12-megapixel wide camera and a 12-megapixel ultra-wide camera. Additionally, the iPhone 13 has improved battery life, lasting up to 19 hours for video playback. It comes with iOS 15, which has a host of new features and improvements.",
+      "price": 799,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=iPhone+13"
+    },
+    {
+      "id": 17,
+      "name": "Samsung Galaxy Z Flip 3",
+      "category": "Smartphone",
+      "description": "The Samsung Galaxy Z Flip 3 is a unique and innovative smartphone that features a foldable screen. When unfolded, the screen is a 6.7-inch Dynamic AMOLED display with a resolution of 2640 x 1080 pixels. Under the hood, it's powered by a Snapdragon 888 processor, up to 8GB of RAM, and up to 256GB of internal storage. The Galaxy Z Flip 3 also has an improved camera system, including a 12-megapixel wide camera and a 12-megapixel ultra-wide camera. Additionally, the smartphone has a long battery life of up to 12 hours and supports fast charging. When folded, the Galaxy Z Flip 3 is small and compact, making it easy to carry around in your pocket.",
+      "price": 999,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Galaxy+Z+Flip+3"
+    },
+    {
+      "id": 18,
+      "name": "OnePlus 9 Pro",
+      "category": "Smartphone",
+      "description": "The OnePlus 9 Pro is a high-end smartphone that features a 6.7-inch Fluid AMOLED display with a resolution of 3216 x 1440 pixels. Under the hood, it's powered by a Snapdragon 888 processor, up to 12GB of RAM, and up to 256GB of internal storage. The smartphone also has a long battery life of up to 50 hours and supports fast charging. With its powerful camera system, the OnePlus 9 Pro can capture stunning photos and videos in any lighting condition. Additionally, the smartphone has 5G connectivity, allowing you to stream and download content at lightning-fast speeds.",
+      "price": 969,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=OnePlus+9+Pro"
+    },
+    {
+      "id": 19,
+      "name": "Google Pixel 6",
+      "category": "Smartphone",
+      "description": "The Google Pixel 6 is a top-of-the-line smartphone that runs on the latest version of Android. It features a 6.4-inch AMOLED display with a resolution of 2400 x 1080 pixels. Under the hood, it's powered by Google's own Tensor chip, which is incredibly powerful and efficient. It has up to 4-core GPU for incredible gaming and photography experiences, and up to 8GB of RAM, depending on the model. The Pixel 6 also has an improved camera system, including a 50-megapixel wide camera and a 12-megapixel ultra-wide camera. Additionally, the smartphone has a long battery life of up to 18 hours and supports fast charging.",
+      "price": 749,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Pixel+6"
+    },
+    {
+      "id": 20,
+      "name": "Xiaomi Mi 11",
+      "category": "Smartphone",
+      "description": "The Xiaomi Mi 11 is a flagship smartphone that boasts a 6.81-inch AMOLED display with a resolution of 3200 x 1440 pixels. Under the hood, it's powered by a Snapdragon 888 processor, up to 12GB of RAM, and up to 256GB of internal storage. The smartphone also has a long battery life of up to 20 hours and supports fast charging. The Mi 11's camera system is impressive, featuring a 108-megapixel wide camera, a 13-megapixel ultra-wide camera, and a 5-megapixel macro camera. Additionally, the smartphone has 5G connectivity, allowing you to stream and download content at lightning-fast speeds.",
+      "price": 649,
+      "in_stock": true,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Mi+11"
+    },
+    {
+      "id": 21,
+      "name": "Sony Xperia 5 III",
+      "category": "Smartphone",
+      "description": "The Sony Xperia 5 III is a high-end smartphone that features a 6.1-inch OLED display with a resolution of 2520 x 1080 pixels. Under the hood, it's powered by a Snapdragon 888 processor, up to 8GB of RAM, and up to 256GB of internal storage. The smartphone's camera system is impressive, featuring a 12-megapixel wide camera, a 12-megapixel ultra-wide camera, and a 12-megapixel telephoto camera. Additionally, the smartphone has a long battery life of up to 21 hours and supports fast charging. With its powerful performance and high-quality camera system, the Sony Xperia 5 III is a great smartphone for anyone who wants the best of both worlds.",
+      "price": 999.99,
+      "in_stock": false,
+      "thumbnail": "https://dummyimage.com/400x400/cccccc/000000.png&text=Xperia+5+III"
+    }
+  ],
+  "orders": []
+}
