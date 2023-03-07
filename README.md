@@ -1,10 +1,10 @@
-## to run this app:
+## To run this app:
 
 clone this backend branch in your computer. Then install all the dependencies for the backend folder using:
 
-## "npm i"
+### "npm i"
 
-then type "npm start" to start the json-server at port -9000
+### then type "npm start" to start the json-server at port -9000
 
 [x] Login & Home/Landing View
 
