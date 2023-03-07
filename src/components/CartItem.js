@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import trashIcon from "../assets/images/delete.png";
 import {
   addToCart,
@@ -9,6 +10,7 @@ import {
 
 const CartItem = ({ cart }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const products = useSelector((state) => state.products);
 
   const { id: cartId, amount } = cart;
@@ -19,6 +21,9 @@ const CartItem = ({ cart }) => {
   const totalPrice = price * amount;
 
   //handler
+  const handleNavigate = () => {
+    navigate(`/products/${id}`);
+  };
   const handleCartDecrement = () => {
     dispatch(decrementCart(id));
   };
@@ -33,10 +38,17 @@ const CartItem = ({ cart }) => {
     <div className="md:grid grid-cols-12 rounded border p-4">
       <div className="flex items-center col-span-6 space-x-6">
         {/* <!-- cart image --> */}
-        <img className="max-w-[80px]" src={thumbnail} alt={name} />
+        <img
+          className="max-w-[80px] cursor-pointer"
+          src={thumbnail}
+          alt={name}
+          onClick={handleNavigate}
+        />
         {/* <!-- cart item info --> */}
-        <div className="space-y-2">
-          <h4 className="font-semibold">{name}</h4>
+        <div className="space-y-2 ">
+          <h4 className="font-semibold cursor-pointer" onClick={handleNavigate}>
+            {name}
+          </h4>
           <p className="text-sm">{category}</p>
           <p>
             USD <span className="font-bold">{price}</span>
@@ -65,7 +77,7 @@ const CartItem = ({ cart }) => {
       {/* <!-- delete button --> */}
       <div className="flex items-center justify-center col-span-2 mt-4 md:justify-end md:mt-0">
         <button onClick={handleDelete}>
-          <img className="max-w-[32px]" src={trashIcon} alt="trash icon" />
+          <img className="max-w-[32px] " src={trashIcon} alt="trash icon" />
         </button>
       </div>
     </div>

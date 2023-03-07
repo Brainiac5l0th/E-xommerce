@@ -14,7 +14,7 @@ const Login = () => {
               for="phone"
               className="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300"
             >
-              Your email or Phone
+              Bangladeshi Phone number example:+8801900000000
             </label>
             <input
               type="phone"

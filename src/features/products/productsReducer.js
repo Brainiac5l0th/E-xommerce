@@ -14,10 +14,10 @@ const generateId = (productsArray) => {
   return maxId + 1;
 };
 
-const productReducer = (state = initialState, action) => {
+const productsReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOAD_PRODUCTS:
-      return [...state, ...action.payload];
+      return [...action.payload];
     case ADD_PRODUCT:
       return [...state, { id: generateId(state), ...action.payload }];
     case REMOVE_PRODUCT:
@@ -37,4 +37,4 @@ const productReducer = (state = initialState, action) => {
   }
 };
 
-export default productReducer;
+export default productsReducer;

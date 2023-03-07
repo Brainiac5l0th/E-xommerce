@@ -1,11 +1,12 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 import cartImg from "../assets/images/shopping-cart.png";
 const Header = () => {
+  const navigate = useNavigate();
   const cartQuant = useSelector((state) => state.carts);
-
+  const userInfo = useSelector((state) => state.user);
   const total = cartQuant.reduce((total, card) => total + card?.amount, 0);
   return (
     <header className="w-full bg-teal-500 relative h-20 mb-14">
@@ -30,35 +31,12 @@ const Header = () => {
             <li>
               <Link
                 className="w-full font-semibold tracking-wide px-3 py-2 hover:border-b-4 hover:border-teal-600 hover:text-stale-200 transition hover:ease-in-out"
-                to="#"
+                to="/add"
               >
-                Users
+                Add Product
               </Link>
             </li>
-            <li>
-              <Link
-                className="w-full font-semibold tracking-wide px-3 py-2 hover:border-b-4 hover:border-teal-600 hover:text-stale-200 transition hover:ease-in-out"
-                to="#"
-              >
-                Add User
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="w-full font-semibold tracking-wide px-3 py-2 hover:border-b-4 hover:border-teal-600 hover:text-stale-200 transition hover:ease-in-out"
-                to="#"
-              >
-                Tasks
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="w-full font-semibold tracking-wide px-3 py-2 hover:border-b-4 hover:border-teal-600 hover:text-stale-200 transition hover:ease-in-out"
-                to="#"
-              >
-                Add Task
-              </Link>
-            </li>
+
             <li>
               <Link
                 to="/cart"
@@ -71,9 +49,18 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <button className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 ">
-            Logout
-          </button>
+          {userInfo?.username ? (
+            <Link className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 ">
+              Logout
+            </Link>
+          ) : (
+            <button
+              onClick={navigate("/login")}
+              className="bg-teal-600 text-white font-medium md:font-semibold px-4 md:px-5 py-1 rounded-lg transform transition duration-300 md:hover:scale-110 active:translate-y-1 "
+            >
+              Login
+            </button>
+          )}
           {/* <img className="md:hidden" src="" alt="" /> */}
         </div>
       </div>
